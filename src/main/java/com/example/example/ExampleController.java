@@ -10,4 +10,9 @@ public class ExampleController {
     public String hello() {
         return "Hello World";
     }
+
+    @RequestMapping("/health")
+    public String health() {
+        return "Health check";
+    }
 }

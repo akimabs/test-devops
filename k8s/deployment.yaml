@@ -19,9 +19,9 @@ spec:
             - containerPort: 8080
           resources:
             requests:
-              cpu: 500m # 0.5 core
+              cpu: 200m
             limits:
-              cpu: 1000m # 1 core
+              cpu: 200m
           livenessProbe:
             httpGet:
               path: /health
